@@ -1,0 +1,29 @@
+# Data files — proprietary (WRDS) and not redistributable
+data/
+*.csv
+*.parquet
+*.xlsx
+!figures/*.xlsx  # if you ship summary tables, allow them
+
+# Jupyter
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+venv/
+env/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Output artefacts
+*.log
+*.tmp
